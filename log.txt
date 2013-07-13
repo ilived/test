@@ -1,0 +1,7 @@
+01-01 08:25:35.510: ERROR/MountService(265): com.android.server.NativeDaemonConnectorException: Cmd {volume cdrom share ums true} failed with code 406 : {volume operation failed (No such file or directory)}
+01-01 08:25:35.510: ERROR/MountService(265):     at com.android.server.NativeDaemonConnector.doCommand(NativeDaemonConnector.java:260)
+01-01 08:25:35.510: ERROR/MountService(265):     at com.android.server.MountService.doShareUnshareCDRom(MountService.java:2311)
+01-01 08:25:35.510: ERROR/MountService(265):     at com.android.server.MountService.setShareUnshareCDRom(MountService.java:2295)
+01-01 08:25:35.510: ERROR/MountService(265):     at android.os.storage.IMountService$Stub.onTransact(IMountService.java:939)
+01-01 08:25:35.510: ERROR/MountService(265):     at android.os.Binder.execTransact(Binder.java:320)
+01-01 08:25:35.510: ERROR/MountService(265):     at dalvik.system.NativeStart.run(Native Method)
